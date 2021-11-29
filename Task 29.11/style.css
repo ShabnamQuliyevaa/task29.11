@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pac: "Pacifico", sans-serif;
+    --open: "Open Sans", sans-serif;
+    --rale: "Raleway", sans-serif;
+}
+
+header {
+    background-image: url("img/bg.png");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.header-body {
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+.header-body h1 {
+    font: 400 60px var(--pac);
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+
+.header-body p {
+    font: 500 24px var(--open);
+    width: 469px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    /* font-family: "Helvetica Neue"; bu fontu tapmadim? */
+}
+
+.icon a {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #03030350;
+    position: relative;
+    margin-right: 15px;
+}
+
+.icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.icon a:hover {
+    background-color: #2ecc71;
+}
+
+.header-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.design {
+    display: flex;
+    justify-content: space-around;
+}
+
+.word {
+    display: flex;
+    justify-content: space-around;
+}
+
+.word h2 {
+    font: 600 22px var(--rale);
+    line-height: 18px;
+    color: #222222;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.word p {
+    font: 400 16px var(--open);
+    width: 358px;
+    line-height: 26px;
+    color: #848484;
+    text-align: center;
+}
+
+.notify {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e3e3e3;
+}
+
+.notify h2 {
+    font: 600 22px var(--rale);
+    line-height: 18px;
+    color: #222222;
+}
+
+.notify p {
+    font: 400 16px var(--open);
+    width: 541px;
+    line-height: 26px;
+    color: #848484;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.notify input {
+    font: 300 18px var(--open);
+    line-height: 18px;
+    color: #848484;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8c8c8;
+    padding: 20px 0 20px 25px;
+    outline: none;
+}
+
+.notify button {
+    font: bold 22px var(--rale);
+    line-height: 18px;
+    color: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #2ecc71;
+    border: none;
+    padding: 20px 40px;
+}
+
+.video iframe {
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.footer-body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-body p {
+    font: 400 18px var(--open);
+    line-height: 30px;
+    color: #848484;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer-body h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font: bold 18px var(--rale);
+    line-height: 20px;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 50px;
+    height: 50px;
+}
+
+.images a:hover {
+    background-color: #2ecc71;
+}
+
+.footer-end h2 {
+    font: 600 24px var(--rale);
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-end p {
+    font: 400 16px var(--open);
+    line-height: 26px;
+    color: #848484;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #c5c5c5;
+    position: relative;
+}
+
+.social i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.social a:hover {
+    background-color: #62d895;
+}
+
+footer {
+    background-color: #e3e3e3;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font: 400 16px var(--open);
+    line-height: 26px;
+    color: #848484;
+    padding: 10px 15px;
+}
+
+footer ul li a:hover {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding-left: 30px;
+    }
+    .header-body h1 {
+        font: 400 40px var(--pac);
+    }
+    .header-body p {
+        font: 500 16px var(--open);
+        width: 281px;
+    }
+    .icon a {
+        width: 31px;
+        height: 31px;
+        margin-right: 9px;
+    }
+    .design img {
+        width: 60px;
+    }
+    .word h2 {
+        font: 600 13px var(--rale);
+    }
+    .word div {
+        width: 140px;
+    }
+    .word p {
+        font: 400 10px var(--open);
+        width: 60px;
+        margin-left: 15px;
+    }
+    .notify {
+        padding: 36px 15px;
+    }
+    .notify h2 {
+        font: 600 13px var(--rale);
+    }
+    .notify p {
+        font: 400 10px var(--open);
+        width: 280px;
+    }
+    .form {
+        margin-left: 54px;
+    }
+    .notify input {
+        font: 300 10px var(--open);
+        width: 180px;
+        padding: 13px 0 13px 15px;
+    }
+    .notify button {
+        font: bold 13px var(--rale);
+        padding: 12px 24px;
+    }
+    .video iframe {
+        width: 280px;
+        height: 180px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    .footer-body p {
+        font: 400 10px var(--open);
+    }
+    .footer-body h3 {
+        font: bold 10px var(--rale);
+    }
+    .images {
+        flex-wrap: wrap-reverse;
+    }
+    .footer-end h2 {
+        font: 600 14px var(--rale);
+        margin-top: 36px;
+    }
+    .footer-end p {
+        font: 400 9px var(--open);
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    footer {
+        padding-top: 36px;
+        padding-bottom: 36px;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    footer ul li a {
+        font: 400 10px var(--open);
+        padding: 7px 10px;
+    }
+    footer ul li a:hover {
+        padding: 7px 10px;
+    }
+}
